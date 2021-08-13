@@ -75,7 +75,7 @@ def login(username,password,user,msg,n):
             send.send_keys(Keys.RETURN)
             time.sleep(2)
             
-            # clicks on direct option or pencl icon
+            # clicks on direct option or pencil icon
             bot.find_element_by_xpath(
                 '//*[@class="_2NzhO EQ1Mr"]/button').click()
             time.sleep(2)
